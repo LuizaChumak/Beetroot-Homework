@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER*/
+body {
+    max-width: 1700px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link,
+.footer__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #828282;
+}
+
+a:active {
+    color: #070707;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+/*MAIN*/
+.user__img {
+    width: 970px;
+    height: 387px;
+}
+
+.user__name {
+    text-align: left;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.section1__headline {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section1__text1,
+.section1__text2 {
+    padding-bottom: 30px;
+}
+
+.section1__text3 {
+    padding-bottom: 100px;
+}
+
+.section2__headline {
+    padding-top: 73px;
+    padding-bottom: 20px;
+}
+
+.section2__text {
+    padding-bottom: 20px;
+}
+
+.section2__img {
+
+    padding-top: 20px;
+    padding-bottom: 73px;
+}
+
+.section3__headline {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section3__text {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.section3__image__p {
+    width: 970px;
+    height: 540px;
+}
+
+.section1,
+.section3 {
+    background-color: #F6F6F6;
+
+}
+
+/*FOOTER*/
+.footer__headline {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer__text {
+    padding-bottom: 60px;
+}
+
+.footer__button {
+    text-decoration: none;
+    color: #FFFFFF;
+
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px;
+
+    width: 180px;
+    height: 44px;
+
+    background: #070707;
+    border-radius: 22px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer__section__link_img {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 60px;
+}
+
+.footer__text_end {
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+}
