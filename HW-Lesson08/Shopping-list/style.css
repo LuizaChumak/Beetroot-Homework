@@ -1,0 +1,137 @@
+* {
+    transition: all .1s ease-in;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper {
+    width: 793px;
+    height: 507px;
+    margin: 0 auto;
+    border: #7e7e7e solid 5px;
+    background: #3B3F45;
+}
+
+h1 {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FF8984;
+    padding-bottom: 4px;
+}
+
+p:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FF8984;
+}
+
+p:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FF8984;
+}
+
+label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+
+span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+
+
+.first-section {
+    text-align: center;
+    width: 783px;
+    height: 87px;
+    background: #4A4F56;
+    padding: 19px 0 12px 0;
+}
+
+.second-section {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 534px;
+    height: 335px;
+    margin: 0 auto;
+    padding: 20px 0 45px 0;
+}
+
+label {
+    text-align: center;
+    margin: 0 0 0 16px;
+}
+
+input {
+    width: 19px;
+    height: 19px;
+    margin: 12px 0 14px 12px;
+}
+
+.item {
+    width: 534px;
+    height: 45px;
+}
+
+.item1 {
+    background: #88839E;
+}
+
+.item1+.item2 {
+    background: #625E77;
+}
+
+.third-section {
+    text-align: center;
+    width: 534px;
+    height: 45px;
+    margin: 0 auto;
+    background: #4A4F56;
+    padding: 12px 0 12px 0;
+}
+
+input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.item:hover {
+    background: #4e4b5a;
+    border-top: #FFFFFF solid 3px;
+    border-bottom: #FFFFFF solid 3px;
+}
+
+.item:active {
+    background: #c95955;
+}
+
+span::before {
+    content: "(";
+}
+
+span::after {
+    content: ")";
+}

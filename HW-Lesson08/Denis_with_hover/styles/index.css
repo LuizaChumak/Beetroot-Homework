@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 970px;
+    margin: 0px auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #828282;
+}
+
+.hero__name,
+.nav__list-item,
+.title,
+.text,
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+.hero__name {
+    font-weight: 700;
+    font-size: 48px;
+    color: #070707;
+    text-align: left;
+
+}
+
+.nav__list-item {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #828282;
+    list-style: none;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #070707;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #070707;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    height: 80px;
+}
+
+.nav__list-item {
+    display: inline;
+    padding: 0 20px;
+}
+
+.nav {
+    padding: 25px 0;
+    border-bottom: 2px solid #828282;
+}
+
+
+
+.hero {
+    height: 497px;
+    margin-top: 12px;
+}
+
+.hero__name {
+    padding-bottom: 50px;
+}
+
+
+.about-me {
+    height: 500px;
+    background: #F6F6F6;
+}
+
+.about-me__title {
+    padding: 100px 0 50px 0;
+}
+
+.about-me__text1,
+.about-me__text2 {
+    padding: 0 0 30px 0;
+}
+
+.about-me__text3 {
+    padding: 0 0 100px 0;
+}
+
+
+.skills {
+    height: 564px;
+}
+
+.skills__title {
+    padding: 73px 0 20px 0;
+}
+
+.skills__text {
+    padding: 0 0 50px 0;
+}
+
+.skils__img {
+    padding: 0 0 73px 0;
+}
+
+.portfolio {
+    height: 2268px;
+    background: #F6F6F6;
+}
+
+.portfolio__title {
+    padding: 100px 0 50px 0;
+}
+
+.portfolio__text1,
+.portfolio__text2 {
+    padding: 40px 0 70px 0;
+}
+
+.portfolio__text3 {
+    padding: 40px 0 100px 0;
+}
+
+.footer {
+    height: 600px;
+}
+
+.footer__title {
+    padding: 100px 0 20px 0;
+}
+
+.footer__img {
+    padding: 60px 0 30px 0;
+}
+
+.footer__subtitle {
+    padding: 60px 0 100px 0;
+}
+
+.contacts__img {
+    padding-left: 50px;
+}
+
+.image {
+    padding-left: 0px;
+}
+
+.nav__link:hover {
+    color: #070707;
+    font-weight: 700;
+}
+
+.contacts__img:hover {
+    opacity: 0.5;
+}
+
+.footer__img:hover {
+    opacity: 0.3;
+}
