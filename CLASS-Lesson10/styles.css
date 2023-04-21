@@ -1,0 +1,45 @@
+.task-01 {
+    display: flex;
+
+}
+
+.task-01__box {
+    background-color: red;
+    width: 600px;
+}
+
+.task-01__box:last-child {
+    background: blue;
+}
+
+.task-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-02__box {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+
+.task-03 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+
+}
+
+.task-03__box {
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
