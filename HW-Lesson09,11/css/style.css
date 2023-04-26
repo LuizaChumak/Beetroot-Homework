@@ -210,3 +210,59 @@ h2 {
     line-height: 26px;
     color: #544837;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px 0 70px 0;
+}
+
+h3,
+label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}
+
+form {
+    max-width: 340px;
+}
+
+.footer-title {
+    padding-bottom: 30px;
+}
+
+.footer-link {
+    padding-bottom: 15px;
+}
+
+input {
+    width: 340px;
+    height: 50px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    margin: 25px 0 25px 0;
+}
+
+input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BCD0E5;
+}
+
+footer {
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+}
+
+main {
+    background-image: url(../images/bg.svg);
+    background-size: cover;
+    background-position: bottom center;
+}
