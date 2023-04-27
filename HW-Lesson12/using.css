@@ -57,7 +57,7 @@ ul {
     width: 100px;
     height: 8px;
     background: #000000;
-    margin-top: 18px;
+    align-self: center;
 }
 
 .cards-title {
