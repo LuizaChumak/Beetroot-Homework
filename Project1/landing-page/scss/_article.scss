@@ -1,0 +1,146 @@
+.article {
+    padding-bottom: 5.25rem;
+    margin: 0 auto;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+
+    &__hashtag {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: $voilet;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 3.375rem;
+        letter-spacing: -0.02em;
+        color: $darkPurple;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.02em;
+        color: $black;
+    }
+
+    &__subtitle>span {
+        color: $voilet;
+    }
+
+    &__image-hero {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    &__image-herod,
+    &__image-burger,
+    &__image-small,
+    &__image-big {
+        display: none;
+    }
+
+    @media (min-width:810px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6.25rem;
+        gap: 8.125rem;
+        padding-bottom: 6.25rem;
+
+        &__text {
+            width: 28.4375rem;
+        }
+
+        &__image-hero {
+            display: none;
+        }
+
+        &__image-herod {
+            display: block;
+        }
+
+        &__image {
+            position: relative;
+        }
+
+        &__image-burger {
+            display: block;
+            position: absolute;
+            top: -1.5625rem;
+            left: 18.5rem;
+            animation: ball1 3s 2s ease-in-out infinite;
+        }
+
+        &__image-small {
+            display: block;
+            position: absolute;
+            top: 14.0625rem;
+            left: 21rem;
+            animation: ball2 3s 2s ease-in-out infinite;
+        }
+
+        &__image-big {
+            display: block;
+            position: absolute;
+            top: 2.25rem;
+            left: 30.25rem;
+            animation: ball3 5s 2s ease-in-out infinite;
+        }
+
+        @keyframes ball1 {
+            from {
+                transform: translateY(0%);
+            }
+
+            50% {
+                transform: translateX(-12px);
+                scale: 1.05;
+            }
+
+            to {
+                transform: translateY(0%);
+            }
+        }
+
+        @keyframes ball2 {
+            from {
+                transform: translateY(0%);
+            }
+
+            50% {
+                transform: translatey(-12px);
+                scale: 1.05;
+            }
+
+            to {
+                transform: translateY(0%);
+            }
+        }
+
+        @keyframes ball3 {
+            from {
+                transform: translateY(0%);
+            }
+
+            50% {
+                transform: translatex(-40px);
+            }
+
+            to {
+                transform: translateY(0%);
+            }
+        }
+    }
+}

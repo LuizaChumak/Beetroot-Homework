@@ -1,0 +1,95 @@
+.header {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5625rem 1.25rem 1.5625rem 1.25rem;
+
+    &__link {
+        padding: 1rem;
+    }
+
+    &__logo {
+        width: 5.43rem;
+        height: 2.125rem;
+    }
+
+    &__menu {
+        display: none;
+        height: 1.2rem;
+        width: 1.367rem;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        gap: 7.125rem;
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__icon:hover {
+        opacity: 0.5;
+    }
+
+    a,
+    :active,
+    a:visited {
+        font-weight: 400;
+        color: $black;
+        font-size: 0.875rem;
+    }
+
+    a:hover {
+        color: $voilet;
+    }
+
+    @media (max-width:810px) {
+        //mobile
+
+        &__links {
+            display: none;
+            gap: 5rem;
+            z-index: 99;
+        }
+    }
+
+    @media (min-width:810px) {
+        padding: 1.0625rem 7.5rem 1.1875rem 7.5rem;
+
+        //desktop 
+        label,
+        input {
+            display: none;
+        }
+
+        &__links {
+            display: flex;
+            align-items: center;
+            gap: 6.685rem;
+            order: 2;
+        }
+
+        &__contact {
+            order: 3;
+        }
+
+    }
+
+    @media (max-width:1050px) {
+
+        &__links {
+            gap: 1.7rem;
+        }
+
+        &__nav {
+            gap: 1.7rem;
+        }
+    }
+}

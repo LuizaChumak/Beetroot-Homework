@@ -1,0 +1,103 @@
+.features {
+    padding-bottom: 4.3125rem;
+
+    &__title {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.02em;
+        color: $darkPurple;
+        text-align: center;
+        padding: 1.875rem 4.0625rem 0 3.4375rem;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.02em;
+        color: $black;
+        text-align: center;
+        padding: 0 1.0625rem 4.6875rem 1.0625rem;
+    }
+
+    &__line {
+        content: "";
+        display: block;
+        width: 6.0625rem;
+        height: 0.1875rem;
+        border-radius: 0.125rem;
+        background-color: $yellow;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    &__card-title {
+        font-weight: 600;
+        font-size: 1.125rem;
+        color: $black;
+    }
+
+    &__card-subtitle {
+        font-weight: 400;
+        font-size: 1rem;
+        color: $black;
+    }
+
+    &__card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5.125rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__card-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 7.6875rem 1.5rem 1.5626rem 1.9375rem;
+    }
+
+    &__card {
+        position: relative;
+        width: 17.8125rem;
+        height: 18.4375rem;
+        background: $white;
+        box-shadow: 0 0.5625rem 1.6875rem rgba(0, 0, 0, 0.1);
+        border-radius: 1.25rem;
+    }
+
+    &__image {
+        position: absolute;
+        transform: translate(30%, -40%);
+    }
+
+    &__card-add {
+        align-self: flex-end;
+    }
+
+    @media (min-width:810px) {
+        padding-bottom: 4.6875rem;
+
+        &__title {
+            padding: 2.5rem 4.0625rem 0 3.4375rem;
+        }
+
+        &__card-container {
+            flex-direction: row;
+            gap: 3.125rem;
+        }
+
+        &__card:hover>&__image {
+            scale: 1.2;
+            transition: all 0.7s ease-in-out;
+        }
+
+        &__card-add>img:hover {
+            scale: 1.1;
+            transition: all 0.7s ease-in-out;
+        }
+
+    }
+}

@@ -1,0 +1,59 @@
+.btn {
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.6875rem 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn {
+    &__yellow {
+        width: 11.625rem;
+        color: $darkPurple;
+        background-color: $yellow;
+        border: 0;
+
+        &:hover {
+            background-color: $white;
+        }
+    }
+
+    &__yellow_purple {
+        width: 11.625rem;
+        color: $darkPurple;
+        background-color: $yellow;
+        border: 0;
+
+        &:hover {
+            background-color: $darkPurple;
+            color: $white;
+        }
+    }
+
+    &__transparent {
+        width: 12.625rem;
+        color: $white;
+        background-color: transparent;
+        border: 0.0625rem solid $white;
+
+        &:hover {
+            background-color: $white;
+            color: $darkPurple;
+        }
+    }
+
+    &__white {
+        width: 6.25rem;
+        height: 2.75rem;
+        color: $darkPurple;
+        background: $white;
+        border-radius: 0 0.375rem 0.375rem 0;
+        border: solid $white;
+
+        &:hover {
+            background-color: $darkPurple;
+            color: $white;
+        }
+    }
+}

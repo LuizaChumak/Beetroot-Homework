@@ -1,0 +1,140 @@
+.contacts {
+    background-color: $bgray;
+    padding: 2.25rem;
+
+    &__line {
+        content: "";
+        display: block;
+        width: 6.0625rem;
+        height: 0.1875rem;
+        border-radius: 0.125rem;
+        background-color: $yellow;
+        margin: 1rem auto;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.02em;
+        color: $darkPurple;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    &__image {
+        margin: 1rem auto;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.02em;
+        color: $black;
+    }
+
+    &__text>span {
+        font-weight: 700;
+        color: $voilet;
+    }
+
+    &__link,
+    &__text>a {
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.02em;
+        text-decoration-line: underline;
+        color: $darkPurple;
+    }
+
+    &__link-icon {
+        display: inline-block;
+    }
+
+    &__form {
+        margin: 0 auto;
+        width: 19.4375rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__form-name {
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+        color: $voilet;
+        align-self: flex-start;
+    }
+
+    &__form-field {
+        width: 19.4375rem;
+        height: 2.5rem;
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 0.5rem 1rem;
+        background: $white;
+        border: 0.0625rem solid $lightViolet;
+        border-radius: 0.5rem;
+    }
+
+    &__btn {
+        margin-top: 1.25rem;
+        align-self: flex-end;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 3.125rem;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    @media (min-width:810px) {
+        padding: 2.25rem 2.25rem 6rem 2.25rem;
+
+        //mobile
+        &__desktop {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 10.625rem;
+            padding-top: 3.75rem;
+        }
+
+        &__form {
+            margin: 0;
+            width: 19.4375rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.625rem;
+            align-items: center;
+            justify-content: center;
+            align-self: flex-start;
+        }
+
+        &__info {
+            width: 24.0625rem;
+            align-items: flex-start;
+            text-align: start;
+        }
+
+    }
+}

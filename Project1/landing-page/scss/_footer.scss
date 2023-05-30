@@ -1,0 +1,115 @@
+.footer {
+    background-color: $darkPurple;
+
+    &__container {
+        width: 100%;
+        padding: 3.125rem 1.875rem 4.6875rem;
+    }
+
+    &__nav-link {
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+        color: $white;
+    }
+
+    &__nav-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+
+    &__links {
+        display: flex;
+        gap: 1.25rem;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    &__author {
+        border-top: 0.125rem solid $lightViolet;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        text-align: center;
+        color: $white;
+        padding: 2.8125rem 0;
+        margin: 0 1.125rem;
+    }
+
+    &__form-container {
+        display: flex;
+    }
+
+    &__form-name {
+        display: block;
+        padding: 2.8125rem 0 0.9375rem;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+        color: $white;
+    }
+
+    &__form-field {
+        padding: 0.6875rem 0.8125rem;
+        width: 12.8125rem;
+        height: 2.75rem;
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 0.875rem;
+        color: $white;
+        background-color: $darkPurple;
+        border-radius: 0.375rem 0px 0px 0.375rem;
+        border: solid $white;
+    }
+
+    a:hover {
+        color: $voilet;
+    }
+
+    @media (min-width:810px) {
+        &__author {
+            padding: 1rem 0 1.875rem;
+            margin: 0 7.625rem;
+        }
+
+        &__form-name {
+            padding: 0;
+        }
+
+        &__form {
+            display: flex;
+            align-items: center;
+            gap: 1.625rem;
+        }
+
+        &__nav-container {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 7.1875rem;
+        }
+
+        &__nav {
+            flex-direction: row;
+            gap: 6.25rem;
+        }
+
+        &__links {
+            order: 3;
+        }
+
+        &__container {
+            max-width: 75rem;
+            margin: 0 auto;
+            padding: 2.4375rem 1.25rem 3.0625rem;
+            display: flex;
+            flex-direction: column;
+            gap: 4.5rem;
+        }
+    }
+}
